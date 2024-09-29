@@ -1,7 +1,10 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main >
-      <h1>Event, function and state</h1>
+      <h1>Linked and Navigation</h1>
+      <Link href='./login'>Go to Login page</Link>
     </main>
 
   );
